@@ -1,0 +1,152 @@
+.page-header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+ } 
+ 
+   .menu {
+	display: flex;
+	justify-content: space-between;
+
+	&__logo {
+		font-family: Raleway;
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 31px;
+		letter-spacing: 0.03em;
+		margin-right: 93px;
+		color: $color-black;
+	 } 
+ } 
+ 
+ @media screen and (min-width: 768px) {
+	.page-header {
+	  display: flex;
+	  height: 80px;
+	  align-items: center;
+	  padding: 0;
+	}
+ }
+ 
+ @media screen and (min-width: 1200px) {
+	.page-header {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+ }
+ 
+ .web {
+	color: $color-rgb-blue;
+ }
+ 
+ 
+ 
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+	.web {
+	  color: $color-black;
+	}
+ }
+ 
+ .menu-open {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+ }
+ 
+ .menu-open-icon:hover {
+	fill: #188ce8;
+ }
+ 
+ @media screen and (min-width: 768px) {
+	.menu-open {
+	  display: none;
+	}
+ }
+ 
+  .menu-nav {
+	display: none;
+ } 
+ 
+ .header-contact {
+	display: none;
+ } 
+ 
+  @media screen and (min-width: 768px) {
+	.menu {
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	  margin-top: 35px;
+	  margin-bottom: 32px;
+	  
+	}
+ 
+	.menu-nav {
+	  display: flex;
+	  margin-left: 93px;
+	  align-items: center;
+	  &__nav-item {
+		margin-right: 57px;
+	 }
+	 &__menu-nav-link {
+		color: #212121;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
+		&:hover {
+			color: #2196f3;
+		}
+	 }
+	}
+ 
+	// .menu-nav .link:hover,
+	// .header-contact .link:hover {
+	//   color: #2196f3;
+	// }
+ 
+ 
+	.header-contact {
+	  display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  &__header-contact-item:not(:last-child) {
+		margin-bottom: 13px;
+	 }
+	 &__header-contact-item {
+		width: 300px;
+	 }
+	 &__header-icon {
+		fill: #757575;
+		margin-right: 10px;
+	 }
+
+	 &__header-contact-list {
+		color: #757575;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
+	 }
+	 &__header-contact-list:hover {
+		color: #2196f3;
+	 }
+  
+	 &__.header-contact-list:hover .header-icon {
+		fill: #188ce8;
+	 }
+	}
+ } 
+ 
+ @media screen and (min-width: 1200px) {
+	.header-contact {
+	  display: flex;
+	  flex-direction: row;
+	  &__header-contact-item {
+		 width: 200px;
+	  }
+	}
+	
+ }
+
+ 

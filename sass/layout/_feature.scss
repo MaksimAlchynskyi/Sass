@@ -1,0 +1,50 @@
+.wrap-icon {
+	background-color: $color-third-white;
+	border-radius: 4px;
+ 
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+ }
+
+ .robota {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $color-secondary-black;
+	margin-bottom: 10px;
+ }
+
+.lorem {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: $color-gray;
+ }
+
+ @media screen and (min-width: 768px) {
+	.feature-list {
+	  display: flex;
+	  flex-wrap: wrap;
+	  margin: -15px;
+	}
+	.feature-item {
+	  width: calc((100% - 4 * 15px) / 2);
+	  margin: 15px;
+	}
+ 
+	.robota {
+	  text-align: start;
+	}
+ }
+
+ @media screen and (min-width: 1200px) {
+	.feature-item {
+	  width: calc((100% - 8 * 15px) / 4);
+	}
+ }
+

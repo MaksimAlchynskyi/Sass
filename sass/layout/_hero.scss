@@ -1,0 +1,49 @@
+.hero {
+		background-image: linear-gradient(
+			 rgba(47, 48, 58, 0.4),
+			 rgba(47, 48, 58, 0.4)
+		  ),
+		  url(../img/desktop/background1200.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 118px 0;
+
+		&__title {
+			font-weight: 900;
+			font-size: 44px;
+			line-height: 1.62;
+			text-align: center;
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+			color: $color-secondary-white;
+			margin-bottom: 30px;
+		 }
+
+
+		 @media screen and (min-width: 768px) {
+			.hero {
+			  background-image: linear-gradient(
+					rgba(47, 48, 58, 0.4),
+					rgba(47, 48, 58, 0.4)
+				 ),
+				 url(img/tablet/background768.jpg);
+			}
+		 }
+
+		 @media screen and (min-width: 1200px) {
+			.hero {
+			  background-image: linear-gradient(
+					rgba(47, 48, 58, 0.4),
+					rgba(47, 48, 58, 0.4)
+				 ),
+				 url(img/desktop/background1200.jpg);
+			} 
+}
+
+
+}
