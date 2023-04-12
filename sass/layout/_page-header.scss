@@ -115,6 +115,7 @@
 	 }
 	 &__header-contact-item {
 		width: 300px;
+		align-items: center;
 	 }
 	 &__header-icon {
 		fill: #757575;
@@ -144,6 +145,7 @@
 	  flex-direction: row;
 	  &__header-contact-item {
 		 width: 200px;
+		 margin-bottom: 0;
 	  }
 	}
 	

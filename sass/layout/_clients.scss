@@ -10,9 +10,7 @@
 
  .clients-list {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	
  }
 
  .clients-item {
@@ -37,12 +35,6 @@
 
  .clients-item:hover .clients-icon {
 	fill: $color-secondary-blue;
- }
-
- @media screen and (min-width: 480px) {
-	.clients-item {
-	  width: calc((100% - 4 * 15px) / 2);	
-	}
  }
 
  @media screen and (min-width: 768px) {
