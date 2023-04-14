@@ -23,6 +23,7 @@
 	padding-bottom: 20px;
 	padding-top: 20px;
 	margin: 15px;
+	
  }
 
  .clients-item:hover {
@@ -39,6 +40,9 @@
  }
 
  @media screen and (min-width: 480px) {
+	.clients-list {
+		flex-direction: row;
+	}
 	.clients-item {
 	  width: calc((100% - 4 * 15px) / 2);
 	}

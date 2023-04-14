@@ -35,7 +35,6 @@ ul {
 body {
   margin: 0;
   font-family: Roboto;
-  letter-spacing: 0, 3em;
   background-color: #fff;
 }
 
@@ -473,6 +472,12 @@ body {
 }
 
 @media screen and (min-width: 480px) {
+  .clients-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .clients-item {
     width: calc((100% - 60px) / 2);
   }
